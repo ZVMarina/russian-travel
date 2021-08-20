@@ -1,8 +1,8 @@
 .header__lang-link {
     color: #fff;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
-    text-decoration: none;
     margin-left: 18px;
 }
