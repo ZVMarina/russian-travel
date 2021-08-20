@@ -1,0 +1,7 @@
+.place__paragraph {
+    margin: 0;
+}
+
+.place__paragraph:first-of-type {
+    margin-bottom: 26px;
+}

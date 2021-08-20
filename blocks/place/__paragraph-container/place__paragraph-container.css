@@ -1,0 +1,8 @@
+.place__paragraph-container {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  max-width: 484px;
+  margin: 0;
+  grid-area: paragraph;
+}
