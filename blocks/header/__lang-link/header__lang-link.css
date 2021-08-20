@@ -1,0 +1,7 @@
+.header__lang-link {
+    color: #fff;
+}
+
+.header__lang-link:last-of-type {
+    text-decoration: none;
+}
