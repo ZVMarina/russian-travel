@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-template-areas: 
+    grid-template-areas:
     "title website"
     "image paragraph";
     column-gap: 40px;
@@ -10,5 +10,5 @@
 }
 
 .place:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 92px;
 }
