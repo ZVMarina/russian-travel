@@ -8,3 +8,7 @@
 
 * CSS
 * HTML
+
+## Ссылка на GitHub Pages
+
+(https://zvmarina.github.io/russian-travel/index.html "Путешествия по России")
