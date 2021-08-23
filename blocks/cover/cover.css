@@ -12,11 +12,13 @@
 @media all and (max-width: 1023px) {
     .cover {
         max-width: 768px;
+        margin-bottom: 88px;
     }
 }
 
 @media all and (max-width: 767px) {
     .cover {
         max-width: 320px;
+        margin-bottom: 64px;
     }
 }
