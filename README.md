@@ -11,4 +11,4 @@
 
 ## Ссылка на GitHub Pages
 
-(https://zvmarina.github.io/russian-travel/index.html "Путешествия по России")
+[https://zvmarina.github.io/russian-travel/index.html](https://zvmarina.github.io/russian-travel/index.html "Путешествия по России")
