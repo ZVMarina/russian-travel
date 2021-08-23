@@ -1,8 +1,13 @@
 .place__paragraph-container {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 163%;
-  max-width: 484px;
-  margin: 0;
-  grid-area: paragraph;
+    max-width: 484px;
+    margin: 0;
+    grid-area: paragraph;
+}
+
+@media all and (max-width: 767px) {
+    .place__paragraph-container {
+        max-width: 288;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
