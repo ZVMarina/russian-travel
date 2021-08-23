@@ -1,4 +1,6 @@
 .footer {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     max-width: 1184px;
     margin: auto;
     padding-bottom: 24px;
@@ -20,8 +22,15 @@
 
 @media all and (max-width: 667px) {
     .footer {
+        max-width: 320px;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .footer {
         margin-left: 16px;
-        max-width: 186px;
+        max-width: 320px;
         flex-direction: column;
     }
 }

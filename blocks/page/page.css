@@ -1,5 +1,4 @@
 .page {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: #fff;
     background-color: #2a2c2f;
     -webkit-text-size-adjust: 100%;
@@ -9,8 +8,4 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     min-width: 320px;
-}
-
-* {
-    box-sizing: border-box;
 }

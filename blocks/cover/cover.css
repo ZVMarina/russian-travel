@@ -1,4 +1,6 @@
 .cover {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     max-width: 1184px;
     margin: 0 auto 92px;
 }

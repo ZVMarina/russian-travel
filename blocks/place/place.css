@@ -29,10 +29,10 @@
 @media all and (max-width: 767px) {
     .place {
         grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraph";
+            "title"
+            "website"
+            "image"
+            "paragraph";
         margin-bottom: 50px;
     }
 }
