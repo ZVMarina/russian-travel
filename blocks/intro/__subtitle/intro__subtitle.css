@@ -5,3 +5,9 @@
     margin: 0 0 33px;
     max-width: 690px;
 }
+
+@media all and (max-width: 767px) {
+    .intro__subtitle {
+        margin-bottom: 34px;
+    }
+}
