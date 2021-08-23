@@ -6,3 +6,11 @@
     margin: 0 auto 32px;
     max-width: 720px;
 }
+
+@media all and (max-width: 767px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

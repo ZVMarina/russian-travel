@@ -2,3 +2,16 @@
   max-width: 984px;
   margin: 0 auto 92px;
 }
+
+@media all and (max-width: 1279px) {
+    .lead {
+        max-width: none;
+        padding: 0 48px 0;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .lead {
+        padding: 0;
+    }
+}

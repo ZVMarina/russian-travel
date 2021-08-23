@@ -1,11 +1,16 @@
 .page {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     color: #fff;
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    min-width: 320px;
+}
+
+* {
+    box-sizing: border-box;
 }
