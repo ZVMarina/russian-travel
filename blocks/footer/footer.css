@@ -30,7 +30,5 @@
 @media all and (max-width: 320px) {
     .footer {
         margin-left: 16px;
-        max-width: 320px;
-        flex-direction: column;
     }
 }
