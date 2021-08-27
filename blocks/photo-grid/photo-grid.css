@@ -10,27 +10,27 @@
 
 @media all and (max-width: 1279px) {
     .photo-grid {
-        max-width: 928px;
         grid-template-columns: repeat(3, minmax(min-content, max-content));
         gap: 14px;
+        padding: 0 48px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .photo-grid {
-        max-width: 720px;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         gap: 16px;
+        padding: 0 24px;
         margin-bottom: 88px;
     }
 }
 
 @media all and (max-width: 767px) {
     .photo-grid {
-        /* max-width: 288px; */
         width: 100%;
         grid-template-columns: repeat(1, minmax(min-content, max-content));
         row-gap: 12px;
+        padding: 0 16px;
         margin-bottom: 64px;
     }
 }
