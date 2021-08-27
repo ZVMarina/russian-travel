@@ -3,7 +3,7 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    color: white;
+    color: inherit;
     transition: opacity .3s ease;
 }
 
