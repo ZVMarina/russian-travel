@@ -6,7 +6,7 @@
     max-width: 560px;
     margin: 0 auto 32px;
     z-index: 1;
-    position: relative
+    position: relative;
 }
 
 @media all and (max-width: 650px) {
@@ -22,7 +22,7 @@
     .cover__title {
         max-width: 250px;
         font-size: 32px;
-        line-height: 35px;;
+        line-height: 35px;
         padding: 0 16px;
         margin-bottom: 16px;
     }
