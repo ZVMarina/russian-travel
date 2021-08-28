@@ -4,10 +4,11 @@
     grid-area: paragraph;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 720px) {
     .place__paragraph-container {
-        max-width: 288;
         margin-left: 16px;
         margin-right: 16px;
+        order: 3;
+        max-width: none;
     }
 }

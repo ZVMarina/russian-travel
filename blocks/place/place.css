@@ -13,26 +13,24 @@
     margin-bottom: 0;
 }
 
-@media all and (max-width: 1279px) {
+@media all and (max-width: 1024px) {
     .place {
         column-gap: 32px;
     }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 870px) {
     .place {
         column-gap: 28px;
         margin-bottom: 73px;
     }
 }
 
-@media all and (max-width: 767px) {
+
+@media all and (max-width: 720px) {
     .place {
-        grid-template-areas:
-            "title"
-            "website"
-            "image"
-            "paragraph";
+        display: flex;
+        flex-direction: column;
         margin-bottom: 50px;
     }
 }
