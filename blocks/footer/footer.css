@@ -10,20 +10,20 @@
 
 @media all and (max-width: 1279px) {
     .footer {
-        max-width: 928px;
+        margin: 0 48px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .footer {
-        max-width: 720px;
+        margin: 0 24px;
     }
 }
 
-@media all and (max-width: 667px) {
+@media all and (max-width: 750px) {
     .footer {
-        max-width: 320px;
         flex-direction: column;
+        margin-left: 16px;
     }
 }
 
