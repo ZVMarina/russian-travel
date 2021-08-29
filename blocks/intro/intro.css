@@ -1,25 +1,25 @@
 .intro {
     font-family: "Inter", Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
     max-width: 984px;
     margin: 0 auto 92px;
 }
 
 @media all and (max-width: 1279px) {
     .intro {
-        max-width: none;
-        margin: 0 48px 92px;
+        padding: 0 48px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .intro {
-        margin: 0 24px 88px;
+        padding: 0 24px;
+        margin-bottom: 88px;
     }
 }
 
 @media all and (max-width: 767px) {
     .intro {
-        margin: 0 16px 64px;
+        padding: 0 16px;
+        margin-bottom: 64px;
     }
 }
