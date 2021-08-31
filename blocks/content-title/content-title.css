@@ -1,4 +1,6 @@
-.content__title {
+.content-title {
+    max-width: 800px;
+    display: inline-block;
     font-weight: 900;
     font-size: 72px;
     line-height: 78px;
