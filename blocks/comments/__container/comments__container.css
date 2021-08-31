@@ -1,0 +1,5 @@
+.comments__container {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
