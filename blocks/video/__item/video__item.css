@@ -1,0 +1,18 @@
+.video__item {
+    text-align: start;
+    width: 583px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-image: url(../../../images/kamchatka.jpg);
+    background-size: cover;
+}
+
+.video__item:last-of-type {
+    margin-left: 18px;
+    background-image: url(../../../images/observatory.jpg);
+    background-size: cover;
+}
