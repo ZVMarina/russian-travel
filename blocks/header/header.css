@@ -4,31 +4,13 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    margin: 0 auto 56px;
-    padding: 28px 0 0;
-}
-
-@media all and (max-width: 1280px) {
-    .header {
-        padding: 28px 48px 0;
-    }
+    margin: auto;
+    padding-top: 28px;
+    padding-bottom: 56px;
 }
 
 @media all and (max-width: 1024px) {
     .header {
-        margin-bottom: 48px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .header {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .header {
-        padding: 16px 16px 0;
+        padding-bottom: 48px;
     }
 }
