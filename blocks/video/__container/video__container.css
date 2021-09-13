@@ -19,7 +19,7 @@
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 629px) {
     .video__container {
         flex-wrap: wrap;
         gap: 8px;
