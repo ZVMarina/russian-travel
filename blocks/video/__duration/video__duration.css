@@ -1,4 +1,13 @@
 .video__duration {
     margin: 0;
     margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.1;
+}
+
+@media all and (max-width: 850px) {
+    .video__duration {
+        margin-bottom: 8px;
+    }
 }

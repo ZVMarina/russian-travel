@@ -4,3 +4,10 @@
     margin-left: 20px;
     position: relative;
 }
+
+@media all and (max-width: 850px) {
+    .video__icon_play {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+}
