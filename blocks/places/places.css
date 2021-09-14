@@ -1,26 +1,19 @@
 .places {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     max-width: 984px;
-    margin: 0 auto 92px;
-}
-
-@media all and (max-width: 1279px) {
-    .places {
-        padding: 0 48px;
-    }
+    margin: auto;
+    padding-bottom: 92px;
 }
 
 @media all and (max-width: 1023px) {
     .places {
-        padding: 0 24px;
-        margin-bottom: 90px;
+        padding-bottom: 90px;
     }
 }
 
 
 @media all and (max-width: 720px) {
     .places {
-        padding: 0;
-        margin-bottom: 66px;
+        padding: 0 0 66px;
     }
 }
