@@ -4,3 +4,9 @@
     height: 97px;
     border-radius: 100px;
 }
+
+@media all and (max-width: 768px) {
+    .comments__image {
+        margin-bottom: 16px;
+    }
+}

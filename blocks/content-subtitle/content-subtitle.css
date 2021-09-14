@@ -15,7 +15,7 @@
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 629px) {
     .content-subtitle {
         font-size: 16px;
         margin-bottom: 24px;
