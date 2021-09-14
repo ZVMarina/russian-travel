@@ -21,7 +21,7 @@
 
 @media all and (max-width: 629px) {
     .video__container {
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 8px;
     }
 }
