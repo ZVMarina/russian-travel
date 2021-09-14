@@ -1,5 +1,12 @@
 .video {
     max-width: 1184px;
-    margin: 0 auto 102px;
+    margin: auto;
+    padding-bottom: 102px;
     text-align: center;
+}
+
+@media all and (max-width: 629px) {
+    .video {
+        padding-bottom: 64px;
+    }
 }
