@@ -1,14 +1,18 @@
-const langLink = document.querySelectorAll('.header__lang-link');
+const langLinkElements = document.querySelectorAll('.header__lang-link');
 
-function langActive() {
-    langLink.forEach(lang => {
-        lang.addEventListener('click', () => {
-            langLink.forEach(link => {
-                link.classList.remove('header__lang-link_active');
-            })
-            lang.classList.add('header__lang-link_active')
+function addLangLinkHandler() {
+    langLinkElements.forEach(langEl => {
+        langEl.addEventListener('click', () => {
+            toggleActiveLangLink(langEl)
         });
     })
 }
 
-langActive()
+function toggleActiveLangLink(langEl) {
+    langLinkElements.forEach(link => {
+        link.classList.remove('header__lang-link_active');
+    })
+    langEl.classList.add('header__lang-link_active')
+}
+
+window.addEventListener('load', addLangLinkHandler);
