@@ -4,3 +4,9 @@
     font-size: 14px;
     line-height: 24px;
 }
+
+@media all and (max-width: 768px) {
+    .comments__author {
+        margin-bottom: 24px;
+    }
+}

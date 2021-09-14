@@ -5,3 +5,10 @@
     font-size: 14px;
     line-height: 24px;
 }
+
+@media all and (max-width: 768px) {
+    .comments__quote {
+        order: 1;
+        margin-bottom: 0;
+    }
+}

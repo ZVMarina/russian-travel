@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 629px) {
     .content-title {
         font-size: 32px;
         margin-bottom: 16px;

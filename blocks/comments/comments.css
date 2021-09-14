@@ -1,5 +1,12 @@
 .comments {
-    margin: 0 auto 102px;
+    margin: auto;
+    padding-bottom: 102px;
     max-width: 1184px;
     text-align: center;
+}
+
+@media all and (max-width: 629px) {
+    .comments {
+        padding-bottom: 64px;
+    }
 }
