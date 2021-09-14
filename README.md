@@ -8,6 +8,7 @@
 
 * CSS
 * HTML
+* JavaScript
 
 ## Ссылка на GitHub Pages
 
