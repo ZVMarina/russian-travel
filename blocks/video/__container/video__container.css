@@ -25,38 +25,3 @@
         gap: 8px;
     }
 }
-
-/* .video__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(583px, 1fr));
-    grid-template-rows: 323px;
-    gap: 18px;
-    justify-content: center;
-    position: relative;
-}
-
-@media all and (max-width: 1279px) {
-    .video__container {
-        grid-template-columns: repeat(auto-fit, minmax(456px, 1fr));
-        grid-template-rows: 288px;
-        grid-column-gap: 16px;
-    }
-}
-
-@media all and (max-width: 975px) {
-    .video__container {
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    }
-}
-
-@media all and (max-width: 850px) {
-    .video__container {
-        grid-template-rows: 200px;
-    }
-}
-
-@media all and (max-width: 767px) {
-    .video__container {
-        grid-template-rows: 200px;
-    }
-} */
